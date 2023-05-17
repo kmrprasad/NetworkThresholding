@@ -3,6 +3,7 @@
 % By: University of Pittsburgh CONCEPT LAB 2023
 
 %% Configure the workspace and search paths
+disp('Configuring workspace')
 addpath('utilities');
 Configure_LFR_sim; %adds folders and loads basic data
 
@@ -17,7 +18,7 @@ numberNodes = size(corMatOrig,1);
 numberReps = size(FC_sim,3);
  
 %% Show objective function implementation on a single subject network:
-GCC = 1; %assign the GCC value between (0,1] ...exclusive 0, inclusive 1
+GCC = .95; %assign the GCC value between (0,1] ...exclusive 0, inclusive 1
 randomSubject = randi([1 100],1); %seelect a random subject
 W = FC_sim(:,:,randomSubject); %specify the weighted network
 
