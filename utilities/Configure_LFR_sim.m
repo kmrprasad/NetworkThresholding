@@ -1,13 +1,13 @@
-utilitiesPath='utilities';
-%addpath(UtilitiesPath);
-NMIpath=[utilitiesPath '/NMI'];
+thresholdpath = [pwd '/threshold_analysis'];
+addpath(thresholdpath);
+NMIpath=[pwd '/NMI'];
 addpath(NMIpath);
-BCTpath = [utilitiesPath '/BCT'];
+BCTpath = [pwd '/BCT'];
 addpath(BCTpath);
-DATApath = [utilitiesPath '/data'];
+DATApath = [pwd '/data'];
 addpath(DATApath);
 
 data=[DATApath '/LFR_sim_data_20220622.mat']
-load(D
+load(data);
 
-clear utilitiesPath NMIpath BCTpath
+clear utilitiesPath NMIpath BCTpath data DATApath

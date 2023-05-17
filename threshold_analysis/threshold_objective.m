@@ -26,6 +26,8 @@ M_all=zeros(9,length(threshold_space));
 M0_threshold_value=zeros(9,1);
 M1_threshold_value=zeros(9,1);
 
+M0_threshold_indx=1;
+M1_threshold_indx=length(threshold_space);
 
   for t = 1:length(threshold_space)
       
