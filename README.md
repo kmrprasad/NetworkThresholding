@@ -11,6 +11,10 @@ By University of Pittsburgh CONCEPT Lab 2023
 ## REFERENCES
 #Objective Function Reference:
 
+PLEASE CITE THE FOLLOWING PAPER WHEN YOU USE/MODIFY AND USE THE CODE:
+
+N. Theis, J. Rubin, J. Cape, S. Iyengar and K. M. Prasad Threshold Selection for Brain Connectomes (2023), Brain Connect Accession Number: 37166374 DOI: 10.1089/brain.2022.0082
+
 #Brain Connectivity Toolbox Reference:
 
 Rubinov M, Sporns O. Complex network measures of brain connectivity: uses and interpretations. NeuroImage 2010;52(3):1059-1069; doi: 10.1016/j.neuroimage.2009.10.003. 
